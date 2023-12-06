@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!--add a short and sweet title-->
+    <title>May Lee - Full Stack Engineer</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+
+    <!--BODY FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+<!--NAVIGATION--> <!--Header including the logo and main navigation-->
+  <header class="main-navigation">
+    <!--add your logo here-->
+    <img src="http://via.placeholder.com/200x70" alt="navigation logo" class="main-navigation__image">
+
+    <nav class="main-navigation__menubar">
+       <ul role="menubar" class="main-navigation__list">
+        <li role="presentation">
+           <a href="index.html" role="menuitem" class="main-navigation__list-item">Home</a>
+        </li>
+        <li role="presentation">
+           <a href="projects.html" role="menuitem" class="main-navigation__list-item">Projects</a>
+        </li>
+        <li role="presentation">
+           <a href="about.html" role="menuitem" class="main-navigation__list-item">About</a>
+        </li>
+        <li role="presentation">
+           <a href="contact.html" role="menuitem" class="main-navigation__list-item--active">Contact</a>
+        </li>
+       </ul>
+    </nav>
+  </header>
+
+
+    <div>
+        <!--add Contact photo-->
+        <div>
+            <img src="data:image/png;base64,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" alt="Profile photo">
+        </div>
+        <!--add section header and description-->
+        <h1>Contact</h1>
+
+        <div>
+            May Lee<br>
+            Dallas, Texas<br>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/chihenglee">Let's connect</a>
+            </li>
+            <br>
+            <li>
+                <a href="mailto:may.chiheng.lee@gmail.com">may.chiheng.lee(at)gmail(dot)com</a>
+            </li>
+            <li>
+                <a href="mailto:may.chiheng.lee@gmail.com?subject=Hi!%20Let's%20chat">Say hi</a>
+            </li>
+            
+        </ul>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label">Email*: </label>
+            <input type="email" required>
+
+            <label class="standard-label">Telephone: </label>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            
+            <label class="standard-label">Message*: </label>
+            <textarea maxlength="240" required></textarea>
+
+            <input type="submit" value="Send message">
+        </form>
+            
+
+        </div>
+    </div>
+
+<script src="js/tota11y.min.js"></script>
+</body>
