@@ -247,7 +247,8 @@ a:active {
     grid-gap: 24px;
 }
 .homepage__project-grid--item {
-    background-color: lightgray
+    background-color: lightgray;
+    padding: 16px;
 }
 .homepage__project-grid--item:hover {
     transform: scale(1.05)
